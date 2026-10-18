@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eee1">
+  <meta name="description" content="How robots sense, decide and move, and where you'll find them working today.">
+  <title>Robotics | FUTURETECH.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js-enabled");</script>
+  <script src="index.js" defer></script>
+</head>
+<body data-page="robotics">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="index.html" aria-label="FUTURETECH home">FUTURETECH<i>.</i></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="ai.html">AI</a>
+        <a href="robotics.html" aria-current="page">Robotics</a>
+        <a href="space.html">Space</a>
+      </div>
+    </nav>
+    <div class="progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero container">
+      <div>
+        <p class="tag" data-reveal>02 · Robotics</p>
+        <h1 class="mega" data-split>
+          <span class="line"><span>Machines</span></span>
+          <span class="line"><span>that do</span></span>
+          <span class="line"><span><mark>real things.</mark></span></span>
+        </h1>
+        <p class="lead" data-reveal>A robot is basically a computer with a body. It senses what's around it, decides what to do, then moves. Here's how that works and where you'll find them.</p>
+        <a class="btn btn-yellow" href="#learn" data-reveal><span class="label">Meet the machines</span><b aria-hidden="true">↓</b></a>
+      </div>
+
+      <div class="art art-yellow" data-reveal role="img" aria-label="A friendly boxy robot waving">
+        <svg viewBox="0 0 400 400" aria-hidden="true">
+          <g stroke="#111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+            <g class="bob">
+              <line x1="200" y1="62" x2="200" y2="100"/>
+              <circle cx="200" cy="52" r="13" fill="#ff7ac6"/>
+            </g>
+            <rect class="wave" x="76" y="250" width="36" height="96" rx="14" fill="#ff7ac6" style="animation-direction:reverse"/>
+            <rect class="wave" x="288" y="250" width="36" height="96" rx="14" fill="#ff7ac6"/>
+            <rect x="130" y="238" width="140" height="124" rx="14" fill="#6aa5ff"/>
+            <rect x="110" y="100" width="180" height="124" rx="18" fill="#f3eee1"/>
+            <circle class="blink" cx="163" cy="152" r="16" fill="#ffe14d"/>
+            <circle class="blink" cx="237" cy="152" r="16" fill="#ffe14d"/>
+            <rect x="162" y="190" width="76" height="12" rx="6" fill="#111"/>
+            <g class="gear">
+              <circle cx="200" cy="300" r="34" fill="none" stroke-width="9" stroke-dasharray="5.3 5.3"/>
+              <circle cx="200" cy="300" r="26" fill="#ffe14d"/>
+              <line x1="200" y1="278" x2="200" y2="322"/>
+              <line x1="178" y1="300" x2="222" y2="300"/>
+              <circle cx="200" cy="300" r="7" fill="#111"/>
+            </g>
+          </g>
+        </svg>
+        <span class="art-label">sense · decide · move</span>
+      </div>
+    </section>
+
+    <section class="block container" id="learn">
+      <div class="block-head" data-reveal>
+        <p class="tag">The basics</p>
+        <h2 class="h2">What <em>is</em> robotics?</h2>
+      </div>
+      <p class="prose" data-reveal>Robotics sits where mechanical engineering, electronics and programming meet. Some robots repeat one move perfectly all day. Others use cameras and sensors to react to whatever's around them. The useful ones mostly work next to people, not instead of them.</p>
+    </section>
+
+    <section class="block container">
+      <div class="block-head" data-reveal>
+        <p class="tag">Where they work</p>
+        <h2 class="h2">Robots on<br><em>the job.</em></h2>
+      </div>
+      <div class="tile-grid">
+        <article class="tile tile-lime" data-reveal>
+          <span class="kicker">Factories</span>
+          <h3>Tireless arms</h3>
+          <p>They weld, paint and assemble car parts, and the thousandth one comes out as accurate as the first.</p>
+        </article>
+        <article class="tile tile-pink" data-reveal>
+          <span class="kicker">Hospitals</span>
+          <h3>Steady hands</h3>
+          <p>Surgeons use robotic systems for tiny, very steady movements, always with a person in control. Others help people through physical rehab.</p>
+        </article>
+        <article class="tile tile-blue" data-reveal>
+          <span class="kicker">Out there</span>
+          <h3>Go-anywhere explorers</h3>
+          <p>Rovers on Mars, drones over wildfires, small subs checking pipelines. Basically anywhere too far, hot or risky for a person.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="block container">
+      <div class="block-head" data-reveal>
+        <p class="tag">Under the hood</p>
+        <h2 class="h2">Three parts,<br><em>one robot.</em></h2>
+      </div>
+      <div class="tile-grid">
+        <article class="step" data-reveal>
+          <span class="step-num">1</span>
+          <h3>Sensors</h3>
+          <p>Cameras, distance sensors and touch sensors tell the robot what's around it.</p>
+        </article>
+        <article class="step" data-reveal>
+          <span class="step-num">2</span>
+          <h3>Controller</h3>
+          <p>Software takes that info and picks the next move, inside limits its builders set.</p>
+        </article>
+        <article class="step" data-reveal>
+          <span class="step-num">3</span>
+          <h3>Actuators</h3>
+          <p>Motors turn the decision into movement, and feedback tells the robot whether it actually got there.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="cta cta-lime" data-reveal>
+        <p class="tag">What's next</p>
+        <h2 class="h2">Robots already work where we <em>can't.</em></h2>
+        <p>Disaster zones, deep water, other planets. They do best when they're built with safety in mind and a person who can step in. The farthest ones are a long way from any factory.</p>
+        <a class="btn btn-paper" href="space.html"><span class="label">Next: Space</span><b aria-hidden="true">→</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="foot-word" aria-hidden="true">FUTURETECH.</span>
+      <div class="foot-row">
+        <nav class="foot-links" aria-label="Footer">
+          <a href="index.html">Home</a><a href="ai.html">AI</a><a href="robotics.html">Robotics</a><a href="space.html">Space</a>
+        </nav>
+        <p>© <span data-year>2026</span> FUTURETECH. Made by Shiwinn Singh, Clan Macarthur.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

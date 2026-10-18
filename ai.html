@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eee1">
+  <meta name="description" content="What AI actually is, where you already use it, and why it still needs a human checking its work.">
+  <title>AI | FUTURETECH.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js-enabled");</script>
+  <script src="index.js" defer></script>
+</head>
+<body data-page="ai">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="index.html" aria-label="FUTURETECH home">FUTURETECH<i>.</i></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="ai.html" aria-current="page">AI</a>
+        <a href="robotics.html">Robotics</a>
+        <a href="space.html">Space</a>
+      </div>
+    </nav>
+    <div class="progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero container">
+      <div>
+        <p class="tag" data-reveal>01 · Artificial intelligence</p>
+        <h1 class="mega" data-split>
+          <span class="line"><span>Software</span></span>
+          <span class="line"><span>that learns</span></span>
+          <span class="line"><span><mark>by example.</mark></span></span>
+        </h1>
+        <p class="lead" data-reveal>Nobody types out every rule. You show a program thousands of examples and let it find the pattern itself. That's most of modern AI in two sentences.</p>
+        <a class="btn" href="#learn" data-reveal><span class="label">Okay, tell me more</span><b aria-hidden="true">↓</b></a>
+      </div>
+
+      <div class="art art-lime" data-reveal role="img" aria-label="A simple neural network drawing with glowing nodes">
+        <svg viewBox="0 0 400 400" aria-hidden="true">
+          <g stroke="#111" stroke-width="3" stroke-linecap="round">
+            <line x1="80" y1="110" x2="200" y2="80"/><line x1="80" y1="110" x2="200" y2="160"/><line x1="80" y1="110" x2="200" y2="240"/><line x1="80" y1="110" x2="200" y2="320"/>
+            <line x1="80" y1="200" x2="200" y2="80"/><line x1="80" y1="200" x2="200" y2="160"/><line x1="80" y1="200" x2="200" y2="240"/><line x1="80" y1="200" x2="200" y2="320"/>
+            <line x1="80" y1="290" x2="200" y2="80"/><line x1="80" y1="290" x2="200" y2="160"/><line x1="80" y1="290" x2="200" y2="240"/><line x1="80" y1="290" x2="200" y2="320"/>
+            <line x1="200" y1="80" x2="320" y2="150"/><line x1="200" y1="80" x2="320" y2="250"/>
+            <line x1="200" y1="160" x2="320" y2="150"/><line x1="200" y1="160" x2="320" y2="250"/>
+            <line x1="200" y1="240" x2="320" y2="150"/><line x1="200" y1="240" x2="320" y2="250"/>
+            <line x1="200" y1="320" x2="320" y2="150"/><line x1="200" y1="320" x2="320" y2="250"/>
+          </g>
+          <g stroke="#111" stroke-width="5">
+            <circle class="node" style="--d:0s" cx="80" cy="110" r="17" fill="#f3eee1"/>
+            <circle class="node" style="--d:.3s" cx="80" cy="200" r="17" fill="#f3eee1"/>
+            <circle class="node" style="--d:.6s" cx="80" cy="290" r="17" fill="#f3eee1"/>
+            <circle class="node" style="--d:.9s" cx="200" cy="80" r="17" fill="#ffe14d"/>
+            <circle class="node" style="--d:1.2s" cx="200" cy="160" r="17" fill="#ffe14d"/>
+            <circle class="node" style="--d:1.5s" cx="200" cy="240" r="17" fill="#ffe14d"/>
+            <circle class="node" style="--d:1.8s" cx="200" cy="320" r="17" fill="#ffe14d"/>
+            <circle class="node" style="--d:2.1s" cx="320" cy="150" r="20" fill="#ff7ac6"/>
+            <circle class="node" style="--d:2.4s" cx="320" cy="250" r="20" fill="#ff7ac6"/>
+          </g>
+        </svg>
+        <span class="art-label">input → guess</span>
+      </div>
+    </section>
+
+    <section class="block container" id="learn">
+      <div class="block-head" data-reveal>
+        <p class="tag">The basics</p>
+        <h2 class="h2">So what <em>is</em> AI?</h2>
+      </div>
+      <p class="prose" data-reveal>AI is a loose label for programs that do things we'd normally expect a person to do: spot a face in a photo, translate a sentence, guess which song you'll like next. It isn't one technology and it definitely isn't a digital brain. Most systems are great at one narrow job and hopeless at everything else.</p>
+    </section>
+
+    <section class="block container">
+      <div class="block-head" data-reveal>
+        <p class="tag">You've already used it</p>
+        <h2 class="h2">AI in<br><em>real life.</em></h2>
+      </div>
+      <div class="tile-grid">
+        <article class="tile tile-pink" data-reveal>
+          <span class="kicker">Health</span>
+          <h3>Second pair of eyes</h3>
+          <p>Doctors use AI tools to flag odd spots on scans. A person still makes the call. The software just helps them look.</p>
+        </article>
+        <article class="tile tile-yellow" data-reveal>
+          <span class="kicker">School</span>
+          <h3>Study helper</h3>
+          <p>Apps can turn a chapter into practice questions, or explain something a second way when the first one didn't click. It does get things wrong, so check it.</p>
+        </article>
+        <article class="tile tile-blue" data-reveal>
+          <span class="kicker">Daily life</span>
+          <h3>Quiet stuff</h3>
+          <p>Spam filters, autocorrect, maps rerouting you around traffic. You've been using AI for years without calling it that.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="block container">
+      <div class="block-head" data-reveal>
+        <p class="tag">How it works</p>
+        <h2 class="h2">Examples in,<br><em>guess out.</em></h2>
+      </div>
+      <div class="tile-grid">
+        <article class="step" data-reveal>
+          <span class="step-num">1</span>
+          <h3>Study examples</h3>
+          <p>The model is shown loads of examples, like photos labelled "cat" or "not a cat", until it picks up what they have in common.</p>
+        </article>
+        <article class="step" data-reveal>
+          <span class="step-num">2</span>
+          <h3>Meet something new</h3>
+          <p>You give it a photo, a question or a sound it has never seen before.</p>
+        </article>
+        <article class="step" data-reveal>
+          <span class="step-num">3</span>
+          <h3>Make a guess</h3>
+          <p>It gives its best guess. Best guess, not guaranteed truth, which is why a human should check anything important.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="cta cta-pink" data-reveal>
+        <p class="tag">The catch</p>
+        <h2 class="h2">It's a good guesser. <em>That's the problem.</em></h2>
+        <p>AI can be confidently wrong, pick up bias from the data it learned from, and often wants a lot of your personal info. So the useful questions are: who's checking it, who's it unfair to, and where does your data go?</p>
+        <a class="btn btn-paper" href="robotics.html"><span class="label">Next: Robotics</span><b aria-hidden="true">→</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="foot-word" aria-hidden="true">FUTURETECH.</span>
+      <div class="foot-row">
+        <nav class="foot-links" aria-label="Footer">
+          <a href="index.html">Home</a><a href="ai.html">AI</a><a href="robotics.html">Robotics</a><a href="space.html">Space</a>
+        </nav>
+        <p>© <span data-year>2026</span> FUTURETECH. Made by Shiwinn Singh, Clan Macarthur.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
